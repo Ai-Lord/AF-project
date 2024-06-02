@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(226, 223, 177, 0.395);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(226, 223, 177, 0.678);
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(200, 247, 118);
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+button:hover{
+    background-color: rgba(155, 240, 8, 0.386);
+}
+
+#post-container {
+    margin-top: 30px;
+}
+
+#posts-container .post {
+    border-bottom: 1px solid #ccc;
+}
+
+#posts-container .post h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#posts-container .post h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+#posts-container .post p {
+    color: #424141;
+    margin: 0;
+}
+
+.comments-container {
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+    
+}
+
+#body{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
